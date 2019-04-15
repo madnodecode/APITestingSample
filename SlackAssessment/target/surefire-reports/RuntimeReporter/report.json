@@ -1,0 +1,149 @@
+{
+  "reportSummary": {
+    "testMethodsSummary": {
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0
+    },
+    "configurationMethodsSummary": {
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "testMethods": [
+    {
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileUploadTests",
+      "methodName": "fileUploadHappyPathTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:46.021-07:00",
+      "endTime": "2019-04-15T13:36:49.321-07:00"
+    },
+    {
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileUploadTests",
+      "methodName": "testFileUploadValidFiles",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:49.328-07:00",
+      "endTime": "2019-04-15T13:36:52.169-07:00"
+    },
+    {
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileDeleteTests",
+      "methodName": "fileDeleteConfirmTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:52.178-07:00",
+      "endTime": "2019-04-15T13:36:55.078-07:00"
+    },
+    {
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileDeleteTests",
+      "methodName": "fileDeleteHappyPathTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:55.085-07:00",
+      "endTime": "2019-04-15T13:36:57.278-07:00"
+    },
+    {
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileDeleteTests",
+      "methodName": "fileDeleteNonExistentFileTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:57.285-07:00",
+      "endTime": "2019-04-15T13:36:57.390-07:00"
+    },
+    {
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileListTests",
+      "methodName": "fileListHappyPathTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:57.394-07:00",
+      "endTime": "2019-04-15T13:37:00.366-07:00"
+    },
+    {
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileListTests",
+      "methodName": "fileListJustUploadExistsTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:37:00.370-07:00",
+      "endTime": "2019-04-15T13:37:23.351-07:00"
+    },
+    {
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileListTests",
+      "methodName": "fileListPreviouslyUploadedExistsTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:37:23.357-07:00",
+      "endTime": "2019-04-15T13:37:23.874-07:00"
+    }
+  ],
+  "configurationMethods": [
+    {
+      "type": "BeforeTest",
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileDeleteTests",
+      "methodName": "prepForTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:45.853-07:00",
+      "endTime": "2019-04-15T13:36:45.877-07:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeTest",
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileDeleteTests",
+      "methodName": "prepForTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:45.974-07:00",
+      "endTime": "2019-04-15T13:36:45.986-07:00",
+      "description": ""
+    },
+    {
+      "type": "BeforeTest",
+      "suite": "FileOperations",
+      "test": "FileUploadTest",
+      "packageInfo": "com.slackassessment.test",
+      "className": "FileDeleteTests",
+      "methodName": "prepForTest",
+      "status": "Passed",
+      "startTime": "2019-04-15T13:36:45.994-07:00",
+      "endTime": "2019-04-15T13:36:46.001-07:00",
+      "description": ""
+    }
+  ],
+  "configSummary": {
+    "currentDate": "2019-04-15T13:36:45.713-07:00"
+  },
+  "localConfigSummary": [
+    {
+      "currentDate": "2019-04-15T13:36:45.837-07:00",
+      "suite": "FileOperations",
+      "test": "FileUploadTest"
+    }
+  ],
+  "reporterMetadata": {
+    "currentDate": {
+      "displayLabel": "Current Date"
+    }
+  }
+}

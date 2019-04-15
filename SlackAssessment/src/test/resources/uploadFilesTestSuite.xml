@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FileOperations" parallel="false">
+  <test name="FileUploadTest">
+    <classes>
+      <class name="com.slackassessment.test.FileUploadTests"/>
+    </classes>
+  </test>
+
+</suite>

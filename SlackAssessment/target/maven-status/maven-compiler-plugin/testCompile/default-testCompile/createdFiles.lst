@@ -1,0 +1,7 @@
+com/slackassessment/test/FileListTests.class
+com/slackassessment/constants/Constants.class
+com/slackassessment/utils/FileOperationsUtil.class
+com/slackassessment/test/FileDeleteTests.class
+com/slackassessment/exceptions/ThumbNailUrlsMissingException.class
+com/slackassessment/test/FileUploadTests.class
+com/slackassessment/impl/FileOperationClientImpl.class

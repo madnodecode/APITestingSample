@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [FileOperations]">
+  <test name="FileUploadTest">
+    <classes>
+      <class name="com.slackassessment.test.FileUploadTests"/>
+      <class name="com.slackassessment.test.FileDeleteTests"/>
+      <class name="com.slackassessment.test.FileListTests"/>
+    </classes>
+  </test> <!-- FileUploadTest -->
+</suite> <!-- Failed suite [FileOperations] -->

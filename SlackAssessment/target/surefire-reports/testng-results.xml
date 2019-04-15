@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FileOperations" duration-ms="38046" started-at="2019-04-15T20:36:45Z" finished-at="2019-04-15T20:37:23Z">
+    <groups>
+      <group name="SmokeTests">
+        <method signature="FileDeleteTests.fileDeleteHappyPathTest()[pri:0, instance:com.slackassessment.test.FileDeleteTests@fe18270]" name="fileDeleteHappyPathTest" class="com.slackassessment.test.FileDeleteTests"/>
+        <method signature="FileListTests.fileListHappyPathTest()[pri:0, instance:com.slackassessment.test.FileListTests@6fb0d3ed]" name="fileListHappyPathTest" class="com.slackassessment.test.FileListTests"/>
+        <method signature="FileUploadTests.fileUploadHappyPathTest()[pri:0, instance:com.slackassessment.test.FileUploadTests@10d59286]" name="fileUploadHappyPathTest" class="com.slackassessment.test.FileUploadTests"/>
+      </group> <!-- SmokeTests -->
+    </groups>
+    <test name="FileUploadTest" duration-ms="38046" started-at="2019-04-15T20:36:45Z" finished-at="2019-04-15T20:37:23Z">
+      <class name="com.slackassessment.test.FileUploadTests">
+        <test-method status="PASS" signature="fileUploadHappyPathTest()[pri:0, instance:com.slackassessment.test.FileUploadTests@10d59286]" name="fileUploadHappyPathTest" duration-ms="3300" started-at="2019-04-15T13:36:46Z" finished-at="2019-04-15T13:36:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadHappyPathTest -->
+        <test-method status="PASS" signature="testFileUploadValidFiles()[pri:0, instance:com.slackassessment.test.FileUploadTests@10d59286]" name="testFileUploadValidFiles" duration-ms="2841" started-at="2019-04-15T13:36:49Z" finished-at="2019-04-15T13:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileUploadValidFiles -->
+      </class> <!-- com.slackassessment.test.FileUploadTests -->
+      <class name="com.slackassessment.test.FileDeleteTests">
+        <test-method status="PASS" signature="prepForTest()[pri:0, instance:com.slackassessment.test.FileDeleteTests@fe18270]" name="prepForTest" is-config="true" duration-ms="24" started-at="2019-04-15T13:36:45Z" finished-at="2019-04-15T13:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepForTest -->
+        <test-method status="PASS" signature="prepForTest()[pri:0, instance:com.slackassessment.test.FileListTests@6fb0d3ed]" name="prepForTest" is-config="true" duration-ms="12" started-at="2019-04-15T13:36:45Z" finished-at="2019-04-15T13:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepForTest -->
+        <test-method status="PASS" signature="prepForTest()[pri:0, instance:com.slackassessment.test.FileUploadTests@10d59286]" name="prepForTest" is-config="true" duration-ms="7" started-at="2019-04-15T13:36:45Z" finished-at="2019-04-15T13:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepForTest -->
+        <test-method status="PASS" signature="fileDeleteConfirmTest()[pri:0, instance:com.slackassessment.test.FileDeleteTests@fe18270]" name="fileDeleteConfirmTest" duration-ms="2900" started-at="2019-04-15T13:36:52Z" finished-at="2019-04-15T13:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileDeleteConfirmTest -->
+        <test-method status="PASS" signature="fileDeleteHappyPathTest()[pri:0, instance:com.slackassessment.test.FileDeleteTests@fe18270]" name="fileDeleteHappyPathTest" duration-ms="2193" started-at="2019-04-15T13:36:55Z" finished-at="2019-04-15T13:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileDeleteHappyPathTest -->
+        <test-method status="PASS" signature="fileDeleteNonExistentFileTest()[pri:0, instance:com.slackassessment.test.FileDeleteTests@fe18270]" name="fileDeleteNonExistentFileTest" duration-ms="105" started-at="2019-04-15T13:36:57Z" finished-at="2019-04-15T13:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileDeleteNonExistentFileTest -->
+      </class> <!-- com.slackassessment.test.FileDeleteTests -->
+      <class name="com.slackassessment.test.FileListTests">
+        <test-method status="PASS" signature="fileListHappyPathTest()[pri:0, instance:com.slackassessment.test.FileListTests@6fb0d3ed]" name="fileListHappyPathTest" duration-ms="2972" started-at="2019-04-15T13:36:57Z" finished-at="2019-04-15T13:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileListHappyPathTest -->
+        <test-method status="PASS" signature="fileListJustUploadExistsTest()[pri:0, instance:com.slackassessment.test.FileListTests@6fb0d3ed]" name="fileListJustUploadExistsTest" duration-ms="22981" started-at="2019-04-15T13:37:00Z" finished-at="2019-04-15T13:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileListJustUploadExistsTest -->
+        <test-method status="PASS" signature="fileListPreviouslyUploadedExistsTest()[pri:0, instance:com.slackassessment.test.FileListTests@6fb0d3ed]" name="fileListPreviouslyUploadedExistsTest" duration-ms="517" started-at="2019-04-15T13:37:23Z" finished-at="2019-04-15T13:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileListPreviouslyUploadedExistsTest -->
+      </class> <!-- com.slackassessment.test.FileListTests -->
+    </test> <!-- FileUploadTest -->
+  </suite> <!-- FileOperations -->
+</testng-results>

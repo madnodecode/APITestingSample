@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FileOperations" parallel="false">
+	<test name="FileOperationsSmokeTest">
+		<groups>
+			<run>
+				<include name="SmokeTests" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.slackassessment.test.FileUploadTest" />
+			<class name="com.slackassessment.test.FileDeleteTest" />
+			<class name="com.slackassessment.test.FileListTests" />
+		</classes>
+	</test>
+
+</suite>
